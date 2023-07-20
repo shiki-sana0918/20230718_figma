@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login {
+  }
+  
+  .login__card {
+    width: 444px;
+    height: 666px;
+    margin: 100px auto 0 auto;
+    background-color: pink;
+    border-radius: 4px;
+    padding: 36px;
+    box-shadow: var(
+      --elevation-200-canvas,
+      0px 3px 18px rgba(0, 0, 0, 0.15),
+      0 0 0 0.5px rgba(0, 0, 0, 0.2)
+    );
+    /* padding-top: 36px;
+    padding-bottom: 36px;
+    padding-left: 36px;
+    padding-right: 36px; */
+  }
+  
+  .login__card__title {
+    font-family: Whyte, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 800;
+    text-align: center;
+    color: brown;
+  }
+  
+  .login__card__body {
+    margin-top: 40px;
+  }
+  
+  .login__card__body__google {
+    text-align: center;
+  }
+  
+  .login__card__body__google__button {
+    width: 316px;
+    height: 48px;
+    color:red;
+    border: 3px solid #000;
+    border-radius: 8px;
+    background-color: yellow;
+    font-size: 16px;
+  }
+  
+  .login__card__body__or {
+    font-size: 16px;
+    color: palevioletred;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .login__card__body__email {
+    text-align: center;
+  }
+  
+  .login__card__body__email__input {
+    border: 3px solid red;
+    border-radius: 5px;
+    width: 316px;
+    height: 42px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+  }
+  
+  .login__card__body__password {
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .login__card__body__password__input {
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    width: 316px;
+    height: 42px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 16px;
+  }
+  
+  .login__card__body__button {
+    text-align: center;
+    margin-top: 24px;
+  }
+  
+  .login__card__body__button__create {
+    background-color: yellowgreen;
+    color: #ffffff;
+    border-radius: 8px;
+    width: 316px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .login__card__footer {
+    margin-top: 12px;
+  }
+  
+  .login__card__footer__text {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  
+  .login__card__footer__text__link {
+    color: olivedrab;
+    text-decoration: none;
+  }
+  
+  .login__card__footer__signon {
+    text-align: center;
+    margin-top: 20px;
+    color: hotpink;
+    font-size: 16px;
+  }
+  
+  .login__card__footer__login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login__card__footer__login__link {
+    color: darkmagenta;
+    font-size: 16px;
+    text-decoration: none;
+  }
